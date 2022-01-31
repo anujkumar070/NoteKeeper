@@ -1,0 +1,13 @@
+[[redirects]]
+from="/api/*"
+to="https://lit-cove-94736.herokuapp.com/"
+status=200
+force=true
+headers={X-From = "Nelify"}
+
+
+[[header]]
+#Define which paths this specific [[headers]] block all cover.
+for="/*"
+[headers.values]
+Access-Control-Allow-Origin = "*"
